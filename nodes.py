@@ -122,7 +122,7 @@ class StableAudioSampler:
     FUNCTION = "sample"
     OUTPUT_NODE = True
 
-    CATEGORY = "audio_liam"
+    CATEGORY = "Liam/Audio"
     DESCRIPTION = "stable-audio-open-1.0"
 
     def sample(self, prompt, steps, cfg_scale, sample_size, sigma_min, sigma_max, sampler_type, save_name, save_path, model_filename):

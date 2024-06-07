@@ -9,7 +9,7 @@ class PreViewAudio:
                     {"audio": ("AUDIO",),}
                 }
 
-    CATEGORY = "audio_liam"
+    CATEGORY =  "Liam/Audio"
     DESCRIPTION = "preview audio"
 
     RETURN_TYPES = ()
