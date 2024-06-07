@@ -118,7 +118,8 @@ class StableAudioSampler:
             }
         }
 
-    RETURN_TYPES = (any, "INT","AUDIO")
+    RETURN_TYPES = ("AUDIO", "INT",any)
+    RETURN_NAMES = ("audio","rate","bytes",)
     FUNCTION = "sample"
     OUTPUT_NODE = True
 
